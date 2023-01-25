@@ -1,0 +1,272 @@
+body {
+  background-color: rgb(37, 37, 37);
+  font-family: 'arial';
+  text-transform: uppercase;
+  color: #fff;
+  border: 5px solid orange;
+  line-height: 10px;
+}
+
+span {
+  color: orange;
+  font-size: 36px;
+}
+
+.game__start {
+  display: flex;
+  /* display: none; */
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.game__level {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.game__body {
+  padding: 50px;
+  display: block;
+  display: none;
+}
+
+.game__new {
+  display: none;
+}
+
+.game__inner {
+  display: flex;
+  overflow: hidden;
+}
+
+
+
+.game__column {
+  width: 50%;
+  height: 95vh;
+}
+
+.game__start-title {
+  font-size: 36px;
+}
+
+.game__start-button {
+  width: 80%;
+  height: 100px;
+  font-size: 48px;
+  font-weight: 700;
+  border: none;
+  background-color: orange;
+  text-transform: uppercase;
+  transition: all 0.1s;
+}
+
+.game__start-button:hover {
+  background-color: orangered;
+  color: white;
+}
+
+.game__start-button:active {
+  background-color: black;
+  color: white;
+}
+
+.girls {
+  background-image: url(img/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.game__level-choice {
+  margin-top: 50px;
+  display: flex;
+  grid-gap: 20px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.game__level-btn {
+  width: 120px;
+  height: 70px;
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: orange;
+  color: #000;
+  font-weight: 700;
+  border: none;
+  transition: all 0.2s;
+}
+
+.game__level-btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.game__level-btn:active {
+  background-color: orange;
+  color: #000;
+}
+
+
+
+.game__round {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  grid-gap: 15px;
+}
+
+.round {
+  font-weight: 700;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+}
+
+.active {
+  background-color: orange;
+}
+
+.completed {
+  background-color: rgb(13, 153, 13);
+}
+
+.game__range-text {
+  text-align: center;
+}
+
+
+.game__attempts-text {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.game__info {
+  margin-top: 8vh;
+}
+
+.game__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 20px;
+  border: 5px solid orangered;
+  /* text-align: center; */
+  margin-top: 50px;
+  padding: 0 0 20px;
+}
+
+.input {
+  width: 30vh;
+  height: 10vh;
+  font-size: 60px;
+  text-align: center;
+}
+
+.input:focus::placeholder {
+  font-size: 0;
+}
+
+.input__button {
+  width: 50%;
+  height: 50px;
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: orangered;
+  border: none;
+  transition: all 0.05s;
+}
+
+.input__button:hover {
+  background-color: orangered;
+}
+
+.input__button:active {
+  background-color: rgb(102, 27, 0);
+  color: #fff;
+}
+
+.game__input-help {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.to__few {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 50px;
+  background-color: gray;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.to__much {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 50px;
+  background-color: gray;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.game__new-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game__new-title {
+  margin-top: 40%;
+  font-size: 120px;
+  color: green;
+}
+
+.game__new-choice {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.game__new-choice button:hover {
+  background-color: black;
+}
+
+.next__game {
+  width: 40%;
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: green;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.exit {
+  width: 40%;
+  padding: 15px;
+  text-transform: uppercase;
+  background-color: orangered;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}

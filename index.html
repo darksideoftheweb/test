@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuestTheNumber</title>
+  <!-- <link rel="stylesheet" href="reset.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game__inner">
+    <div class="game__column body">
+      <div class="game__start">
+        <h1 class="game__start-title">Guest The Number</h1>
+        <button class="game__start-button">Start</button>
+      </div>
+      <div class="game__level">
+        <h2 class="game__level__title">Select difficulty level</h2>
+        <div class="game__level-choice">
+          <button class="game__level-btn one">level 1</button>
+          <button class="game__level-btn two">level 2</button>
+          <button class="game__level-btn three">level 3</button>
+        </div>
+      </div>
+      <div class="game__body">
+        <div class="game__round">
+          <div class="round round__one active">
+            <p class="round__text">Round - 1</p>
+          </div>
+          <div class="round round__two">
+            <p class="round__text">Round - 2</p>
+          </div>
+          <div class="round round__three">
+            <p class="round__text">Round - 3</p>
+          </div>
+          <div class="round round__four">
+            <p class="round__text">Round - 4</p>
+          </div>
+        </div>
+        <div class="game__info">
+          <div class="game__range">
+            <h2 class="game__range-text">
+              Secret number - from
+              <span class="start__range">1</span>
+              to
+              <span class="finish__range"> 20</span>
+            </h2>
+          </div>
+          <div class="game__attempts">
+            <h2 class="game__attempts-text">
+              You have
+              <span class="attempts">10</span>
+              attempts
+            </h2>
+          </div>
+        </div>
+        <div class="game__input">
+          <h2 class="game__range-text"> enter the number:</h2>
+          <input class="input" type="number" placeholder="???">
+          <button class="input__button">Try your luck</button>
+          <div class="game__input-help">
+            <div class="to__few">To Few</div>
+            <div class="to__much">To Muth</div>
+          </div>
+        </div>
+      </div>
+      <div class="game__new">
+        <div class="game__new-inner">
+          <h2 class="game__new-title">YOU WIN</h2>
+          <div class="game__new-choice">
+            <button class="next__game">next round</button>
+            <button class="exit">exit the game</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="game__column girls">
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
